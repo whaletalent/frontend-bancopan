@@ -1,0 +1,39 @@
+<div class="row d-flex justify-content-center margemcadastro">
+    <div class="col-md-10">
+
+        <h1 class="text-center mt-5">Cadastrar Usuário</h1>
+
+
+        <div class="form-group mt-5 ">
+            <input required [(ngModel)]='usuarios.name' class="form-control border-form fonte-style" 
+            type="text" name="name" id="name"placeholder="Nome completo (sem abreviações)" >
+        <div>
+            <input [(ngModel)]='usuarios.email'class="form-control border-form fonte-style" 
+            type="email" name="email" id="email" placeholder="E-mail" >
+        </div>
+
+        <div>
+            <input [(ngModel)]='usuarios.cpf'class="form-control border-form fonte-style" name="cpf" 
+            id="cpf" placeholder="CPF">
+        </div>
+
+        <div>
+            <input [(ngModel)]='usuarios.phone'class="form-control border-form fonte-style"  name="telefone" 
+            id="telefone" placeholder="Telefone">
+        </div>
+    </div>
+
+            
+        </div>
+
+        <div class="container mb-5 mt-5 ">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <button type="button" class="btn btn-adcUser btn-lg mb-5"
+                        routerLink="/usuarios" >Cadastrar usuário</button>
+                    <i class="fa-regular fa-circle-plus"></i>
+                </div>
+            </div>
+
+        
+    
